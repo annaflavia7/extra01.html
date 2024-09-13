@@ -1,0 +1,20 @@
+<script>
+    let numeroX = Number(prompt(`Digite um número`));
+
+    let resultado = 0;
+
+    if ((numeroX <= 2) || (numeroX >= 90)) {
+        alert(`Numero Invalido!`)
+
+    } else {
+        if (numeroX < 8) {
+            resultado = numeroX * 2;
+        } else if (numeroX < 15) {
+            resultado = numeroX * numeroX;
+        } else if (numeroX < 90) {
+            resultado = numeroX * 3;
+        }
+        alert(`Resultado ${resultado}`)
+    }
+
+</script>
